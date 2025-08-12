@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.home-page, .refrigerators-page, .waterdispensers-page, .washingmachines-page, .smarttv-page{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.heading{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.heading .logo{
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: cadetblue;
+}
+
+.logo img{
+    height: 40px;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.logo h5{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.heading .navigation{
+    margin-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.navigation li{
+    font-weight: bold;
+}
+
+.navigation a{
+    text-decoration: none;
+}
+
+.message{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(Eimages/eimg26.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.message p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.about-us{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-us h4{
+    text-align: center;
+}
+
+.about-us .below-about-us{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.below-about-us .we-sell,
+.below-about-us .sell-image,
+.below-about-us .location,
+.below-about-us .work-hours,
+.below-about-us .why-us{
+    width: calc(50% - 7.5px);
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0 10px 9px rgba(0, 0, 0, 0.3);
+}
+
+.sell-image img{
+    width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 10px;
+}
+
+.below-about-us h6{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.we-sell ul{
+    display: block;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.why-us ul{
+    display: block;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+
+.below-about-us .location, .below-about-us .work-hours{
+    padding-left: 10px;
+}
+
+.available{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: dimgray;
+}
+
+.available .products{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.products h4{
+    text-align: center;
+}
+
+.products p{
+    text-align: center;
+    padding-top: 4px;
+}
+
+.products nav{
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.products ul{
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+
+.products li{
+    background-color: white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.products a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: darkgoldenrod;
+}
+
+.footer .socials{
+    padding-top: 10px;
+}
+
+.socials h5{
+    padding-left: 40px;
+}
+
+.socials ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.socials li{
+    margin-bottom: 3px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+.socials i{
+    padding-right: 5px;
+}
+
+.footer .links-contacts{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links-contacts .the-links,
+.links-contacts .the-contacts{
+    width: calc(50% - 5px);
+}
+
+.the-links h5{
+    padding-left: 20px;
+}
+
+.the-links li{
+    list-style: none;
+}
+
+.the-links a{
+    text-decoration: none;
+}
+
+.the-contacts h5{
+    padding-left: 20px;
+}
+
+.the-contacts li{
+    list-style: none;
+}
+
+.the-contacts a{
+    text-decoration: none;
+}
+
+.the-contacts i{
+    padding-right: 5px;
+}
+
+.copyright{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkgoldenrod;
+}
+
+.copyright p{
+    text-align: center;
+}
+
+.refrigerators-page .ref-images{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+.ref-images h4{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ref-images .theref-images{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.theref-images img{
+    width: calc(50% - 5px);
+    display: block;
+    height: auto;
+}
+
+.waterdispensers-page .wtr-images{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+.wtr-images h4{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wtr-images .thewtr-images{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.thewtr-images img{
+    width: calc(50% - 5px);
+    display: block;
+    height: auto;
+}
+
+.washingmachines-page .wash-images{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+.wash-images h4{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wash-images .thewash-images{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.thewash-images img{
+    width: calc(50% - 5px);
+    display: block;
+    height: auto;
+}
+
+.smarttv-page .tv-images{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+
+.tv-images h4{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tv-images .thetv-images{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.thetv-images img{
+    width: calc(50% - 5px);
+    display: block;
+    height: auto;
+}
